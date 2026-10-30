@@ -62,7 +62,7 @@ Each model is a pipeline: scale, SMOTE, then the classifier. Comparison uses 5-f
 | Model | CV macro-F1 | CV std | Train macro-F1 | Test macro-F1 | Test accuracy |
 |---|---:|---:|---:|---:|---:|
 | Logistic regression | 0.582 | 0.026 | — | 0.61 | 0.74 |
-| KNN (k = 5) | 0.318 | 0.010 | — | 0.35 | — |
+| KNN (k = 5) | 0.318 | 0.010 | — | 0.35 | 0.47 |
 | Decision tree (depth 6) | 0.443 | — | 0.63 | 0.39 | 0.56 |
 | Random forest (tuned) | 0.499 | 0.079 | 0.85 | 0.42 | 0.59 |
 | XGBoost (tuned) | 0.530 | — | 0.90 | 0.52 | 0.73 |
